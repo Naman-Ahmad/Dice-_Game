@@ -8,9 +8,9 @@ document.querySelector(".img2").setAttribute("src", "./images/dice" + randomNumb
 
 // Display result
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩 Player One Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Lola Wins!";
 } else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").innerHTML = "Player Two Wins! 🚩";
+  document.querySelector("h1").innerHTML = "Naman Wins! 🚩";
 } else {
-  document.querySelector("h1").innerHTML = "It's a Draw!";
+  document.querySelector("h1").innerHTML = "It's a Draw lola pola!";
 }
